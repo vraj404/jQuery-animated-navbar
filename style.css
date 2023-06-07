@@ -1,0 +1,51 @@
+/* Viraj Potdar */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.op,.close{
+    /* display: none; */
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.menu,.close{
+    font-size: 3rem;
+}
+
+.nav{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.op{
+    background-color: whitesmoke;
+    width: 200px;
+}
+
+.op li:hover{
+    border: 0.2px solid;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+    .op{
+        width: 130px;
+        font-size: 1.2rem;
+    }
+    .menu , .close{
+        width: 15%;
+    }
+    .nav{
+        justify-content: center;
+    }
+}
